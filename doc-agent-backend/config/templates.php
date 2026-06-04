@@ -1,0 +1,70 @@
+<?php
+
+return [
+    'list' => [
+        [
+            'id' => 'business_proposal',
+            'name' => 'Business Proposal',
+            'description' => 'Professional business proposal with executive summary, scope, timeline, and pricing',
+            'doc_type' => 'proposal',
+            'icon' => 'briefcase',
+            'prompt' => 'Generate a professional business proposal document. Include sections for: Executive Summary, Project Scope, Timeline & Milestones, Pricing & Payment Terms, and Contact Information. Use formal business language.',
+        ],
+        [
+            'id' => 'invoice',
+            'name' => 'Invoice',
+            'description' => 'Standard invoice with itemized billing, tax calculation, and payment terms',
+            'doc_type' => 'invoice',
+            'icon' => 'receipt',
+            'prompt' => 'Generate a professional invoice document. Include: Company Header, Bill To section, Invoice Number & Date, Itemized table with Description/Quantity/Rate/Amount, Subtotal, Tax, Total, Payment Terms, and Notes. Use clean business formatting.',
+        ],
+        [
+            'id' => 'contract',
+            'name' => 'Service Contract',
+            'description' => 'Legal service agreement with terms, deliverables, and signatures',
+            'doc_type' => 'contract',
+            'icon' => 'file-contract',
+            'prompt' => 'Generate a formal service contract. Include: Parties Involved, Scope of Services, Term & Termination, Payment Terms, Confidentiality Clause, Limitation of Liability, Governing Law, and Signature blocks. Use standard legal contract language.',
+        ],
+        [
+            'id' => 'report',
+            'name' => 'Report',
+            'description' => 'Structured report with executive summary, findings, and recommendations',
+            'doc_type' => 'report',
+            'icon' => 'chart-bar',
+            'prompt' => 'Generate a comprehensive report document. Include: Title Page, Table of Contents, Executive Summary, Background, Key Findings, Analysis, Recommendations, and Appendices. Use clear, professional language suitable for stakeholders.',
+        ],
+        [
+            'id' => 'letter',
+            'name' => 'Formal Letter',
+            'description' => 'Professional letter with proper formatting, header, and signature',
+            'doc_type' => 'letter',
+            'icon' => 'envelope',
+            'prompt' => 'Generate a formal business letter. Include: Sender Address, Date, Recipient Address, Salutation, Body (clear purpose and message), Closing, and Signature block with name and title. Use proper business letter formatting conventions.',
+        ],
+        [
+            'id' => 'resume',
+            'name' => 'Resume / CV',
+            'description' => 'Professional resume with experience, skills, and education sections',
+            'doc_type' => 'resume',
+            'icon' => 'user',
+            'prompt' => 'Generate a professional resume document. Include: Contact Information, Professional Summary, Work Experience (with bullet points), Education, Skills, and Certifications. Use clean, ATS-friendly formatting with clear section headings.',
+        ],
+        [
+            'id' => 'meeting_minutes',
+            'name' => 'Meeting Minutes',
+            'description' => 'Structured meeting notes with attendees, agenda, decisions, and action items',
+            'doc_type' => 'minutes',
+            'icon' => 'clock',
+            'prompt' => 'Generate meeting minutes. Include: Meeting Title, Date & Time, Location, Attendees, Agenda Items (with notes for each), Decisions Made, Action Items (with owners and deadlines), and Next Meeting details. Use clear, concise formatting.',
+        ],
+        [
+            'id' => 'project_plan',
+            'name' => 'Project Plan',
+            'description' => 'Detailed project plan with objectives, milestones, resources, and risk assessment',
+            'doc_type' => 'plan',
+            'icon' => 'tasks',
+            'prompt' => 'Generate a comprehensive project plan document. Include: Project Overview & Objectives, Scope, Stakeholders, Timeline with Milestones, Resource Allocation, Budget Overview, Risk Assessment, and Success Metrics. Use structured, professional formatting.',
+        ],
+    ],
+];
